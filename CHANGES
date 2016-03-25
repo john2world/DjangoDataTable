@@ -1,0 +1,31 @@
+2013.11.20 - 1.7
+
+ - enables the column list to contain values such as "foreignkey.value".
+
+2013.07.18 - 1.6
+
+- compatibility with django 1.5 (thanks restless_being for patch and ema93sh for review)
+
+2013.06.15 - 1.5
+
+- added some 'batteries included' to django_datatables_view, use DjangoJSONEncoder (thanks Ewoud Kohl van Wijngaarden)
+
+2013.03.17 - 1.4
+
+- add max_display_length parameter to allow easy customisation of max records limit (thanks Eric Gallimore)
+
+
+2013.02.14 - 1.3
+
+- added support for datatables with disabled pagination
+
+
+2012.10.17 - 1.2
+
+- added JSON encoder to handle lazy translations and Decimals
+
+
+2012.10.17 - 1.1
+
+- use request.REQUEST instead of request.POST
+- remove unnecessary code
